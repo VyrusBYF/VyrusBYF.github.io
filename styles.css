@@ -26,6 +26,19 @@
 
 }
 
+.row1{
+
+}
+
+.row2{
+
+}
+
+.row3{
+
+}
+
+
 /* --------------------------- */
 
 
@@ -81,10 +94,10 @@ img{
 }
 
 .aside {
-	width:40%;
+	width:42%;
 	background-color: #eee;
-	padding: 100px;
-	margin-left: 80px;
+	padding: 80px;
+	margin-left: 90px;
 }
 
 p{
