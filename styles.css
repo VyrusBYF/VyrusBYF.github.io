@@ -1,0 +1,114 @@
+
+/* ------Grid Settings------ */
+
+.grid{
+	display: grid;
+  	height: 400px;
+  	width:100%;
+  	grid-gap: 10px;
+  	grid-template: 100% 100% / 40% 60%;
+}
+
+.a{
+	border: 2px solid black;
+	grid-column: span 3;
+}
+
+.b{
+
+}
+
+.c{
+}
+
+.d{
+	overflow-wrap: normal;
+
+}
+
+.row1{
+
+}
+
+.row2{
+
+}
+
+.row3{
+
+}
+
+
+/* --------------------------- */
+
+
+/* ------Header Settings------ */
+
+h1 {
+	padding: 20px;
+	border: 2px solid white;
+}
+
+h2 {
+	font-family: "Franklin Gothic Book";
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+/* --------------------------- */
+
+img{
+	width:100%;
+	border-radius:50%;
+	margin: auto;
+}	
+
+.flex-container{
+	display: flex;
+}
+
+.wrapper {
+	background-color: white;
+	display: grid;
+	grid-template-columns: 10rem 5rem 10rem;
+  	grid-template-rows: auto 1fr auto;
+	grid-template-areas:
+		"header 	header 		header 	header"
+		"sidebar 	sidebar 	main 	main"
+		"sidebar	sidebar 	main	main";
+	max-width: 1070px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #ccc;
+	@media (max-width: 36rem) {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.aside {
+	width:30%;
+	background-color: #eee;
+	padding: 100px;
+	margin-left: 150px;
+}
+
+p{
+	font-size: 20px;
+}
+pre{
+	font-size: 20px;
+	font-family: "Times New Roman"
+}
+
+#Timeline tr{
+	font-style: italic;
+	font-size: 19.7px;
+}
